@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.miditos.mascotastarea04.Contacto">
+    <EditText
+        android:id="@+id/teName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_namecon"
+        android:inputType="textPersonName"
+        android:textSize ="20dp"
+        android:layout_alignParentTop="true"/>
+
+    <EditText
+        android:id="@+id/teEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:text="@string/app_email"
+        android:textSize="20dp"
+        android:layout_below="@+id/teName" />
+
+    <EditText
+        android:id="@+id/teMensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_mensaje"
+        android:inputType="textPersonName"
+        android:textSize ="20dp"
+        android:layout_below="@+id/teEmail"/>
+
+    <Button
+        android:id="@+id/buttonSend"
+        android:theme="@style/ThemeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar Comentario"
+        android:textSize ="20dp"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/teMensaje"
+        />
+
+
+
+</RelativeLayout>

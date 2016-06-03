@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tarea Mascotas</string>
+    <string name="menu_contacto">Contacto</string>
+    <string name="menu_acerca">Acerca de</string>
+    <string name="app_namecon">Nombre</string>
+    <string name="app_email">E-mail</string>
+    <string name="app_mensaje">Mensaje</string>
+
+</resources>
